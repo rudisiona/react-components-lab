@@ -1,15 +1,21 @@
 section {
-    display: flex;
-  }
-  
-  section .weather {
-    border: 1px solid #ccc;
-    flex: 1;
-    padding: 10px;
-    text-align: center;
-  }
-  
-  .weather span {
-    font-weight: bold;
-  }
-  
+  display: flex;
+}
+
+section .weather {
+  border: 1px solid #ccc;
+  flex: 1;
+  padding: 10px;
+  text-align: center;
+}
+
+.weather span {
+  font-weight: bold;
+}
+body {
+ text-align: center;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-evenly;
+
+}
